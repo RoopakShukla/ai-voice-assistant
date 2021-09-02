@@ -251,8 +251,8 @@ def CommandExecutionRoopak():
                 if "send a file" in mail_type or "mail with attachment" in mail_type:
                     speak("Okay sir whom do you want to send mail? Please enter reciever's email address here")
                     send_to_mail = input(str("Enter the reciever's email address here: "))
-                    email = 'shuklaroopak@gmail.com'
-                    password = 'Makeyeno.1'
+                    email = '.....'
+                    password = '....'
                     speak("Okay sir, what is the subject for this email")
                     command = takecommand()
                     subject = command
@@ -291,8 +291,8 @@ def CommandExecutionRoopak():
 
                 elif "normal mail" in mail_type:
                     send_to_mail = input(str("Enter reciever's email address: "))
-                    email = 'shuklaroopak@gmail.com'
-                    password = 'Makeyeno.1'
+                    email = '....'
+                    password = '....'
                     message = command
 
                     server = smtplib.SMTP('smtp.gmail.com', 587)
